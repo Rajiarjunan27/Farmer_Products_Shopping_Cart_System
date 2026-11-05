@@ -1,0 +1,222 @@
+
+/* Customer Login - Farmer Fresh Market Theme */
+
+.customer-login-page {
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 30px 20px;
+
+  background:
+    linear-gradient(
+      135deg,
+      #f0fdf4,
+      #dcfce7,
+      #f7fee7
+    );
+}
+
+/* Login Card */
+
+.customer-login-card {
+  width: 100%;
+  max-width: 430px;
+  padding: 40px 35px;
+
+  background: #ffffff;
+  border-radius: 22px;
+
+  box-shadow:
+    0 15px 40px rgba(22, 101, 52, 0.12);
+
+  text-align: center;
+  border: 1px solid #dcfce7;
+}
+
+/* Logo */
+
+.customer-login-logo {
+  font-size: 48px;
+  margin-bottom: 10px;
+}
+
+.customer-login-brand {
+  display: block;
+
+  color: #15803d;
+  font-size: 13px;
+  font-weight: 800;
+  letter-spacing: 2px;
+
+  margin-bottom: 18px;
+}
+
+/* Heading */
+
+.customer-login-card h1 {
+  color: #14532d;
+  font-size: 30px;
+  margin: 0 0 10px;
+  font-weight: 800;
+}
+
+.customer-login-card > p {
+  color: #64748b;
+  font-size: 14px;
+  margin-bottom: 28px;
+}
+
+/* Form */
+
+.customer-login-card form {
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+}
+
+.customer-login-card label {
+  color: #166534;
+  font-size: 14px;
+  font-weight: 700;
+  margin-bottom: 8px;
+}
+
+.customer-login-card input {
+  width: 100%;
+  box-sizing: border-box;
+
+  padding: 14px 15px;
+  margin-bottom: 20px;
+
+  border: 1px solid #bbf7d0;
+  border-radius: 10px;
+
+  background: #fafffb;
+  color: #14532d;
+
+  font-size: 15px;
+  outline: none;
+
+  transition: 0.2s;
+}
+
+.customer-login-card input:focus {
+  border-color: #16a34a;
+  background: #ffffff;
+
+  box-shadow: 0 0 0 4px rgba(34, 197, 94, 0.12);
+}
+
+.customer-login-card input::placeholder {
+  color: #94a3b8;
+}
+
+/* Login Button */
+
+.customer-login-card form button {
+  width: 100%;
+  padding: 15px;
+
+  border: none;
+  border-radius: 10px;
+
+  background: linear-gradient(
+    135deg,
+    #15803d,
+    #16a34a
+  );
+
+  color: #ffffff;
+  font-size: 16px;
+  font-weight: 700;
+
+  cursor: pointer;
+  transition: 0.25s;
+
+  margin-top: 5px;
+}
+
+.customer-login-card form button:hover {
+  background: linear-gradient(
+    135deg,
+    #166534,
+    #15803d
+  );
+
+  transform: translateY(-2px);
+  box-shadow: 0 8px 20px rgba(22, 101, 52, 0.2);
+}
+
+.customer-login-card form button:disabled {
+  opacity: 0.65;
+  cursor: not-allowed;
+  transform: none;
+}
+
+/* Error */
+
+.customer-login-error {
+  padding: 12px;
+  margin-bottom: 18px;
+
+  background: #fef2f2;
+  color: #b91c1c;
+
+  border: 1px solid #fecaca;
+  border-radius: 9px;
+
+  font-size: 14px;
+}
+
+/* Register Link */
+
+.customer-login-register {
+  margin-top: 25px !important;
+  margin-bottom: 15px !important;
+
+  color: #64748b;
+  font-size: 14px;
+}
+
+.customer-login-register a {
+  color: #15803d;
+  font-weight: 700;
+  text-decoration: none;
+}
+
+.customer-login-register a:hover {
+  color: #166534;
+  text-decoration: underline;
+}
+
+/* Back Button */
+
+.customer-login-back {
+  background: transparent;
+  border: none;
+
+  color: #15803d;
+  font-weight: 600;
+  font-size: 14px;
+
+  cursor: pointer;
+  padding: 10px;
+}
+
+.customer-login-back:hover {
+  color: #166534;
+  text-decoration: underline;
+}
+
+/* Responsive */
+
+@media (max-width: 480px) {
+  .customer-login-card {
+    padding: 30px 22px;
+  }
+
+  .customer-login-card h1 {
+    font-size: 26px;
+  }
+}
